@@ -1,0 +1,2163 @@
+[
+	{
+		"title": "Web y JavaScript",
+		"usado": true,
+		"conocimiento": false,
+		"interes": true,
+		"children": [
+			{
+				"title": "Javascript en general",
+				"usado": false,
+				"conocimiento": true,
+				"interes": false,
+				"children": [
+					{
+						"title": "Vanilla JS",
+						"usado": false,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "ES6+",
+						"usado": true,
+						"conocimiento": true,
+						"interes": true,
+						"children": []
+					},
+					{
+						"title": "Typescript",
+						"usado": true,
+						"conocimiento": true,
+						"interes": true,
+						"children": []
+					},
+					{
+						"title": "Decorators",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "async/await",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "long-polling",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "React",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "Functional components",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Class components",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Lifecycle methods",
+								"usado": false,
+								"conocimiento": true,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "react-router",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Hooks",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": [
+							{
+								"title": "custom hooks",
+								"usado": false,
+								"conocimiento": true,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "react-redux",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Context",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Concurrency mode",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Suspense",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "React Lazy",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "SSR",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "server-side vs client-side",
+								"usado": false,
+								"conocimiento": true,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "dynamic loading",
+								"usado": false,
+								"conocimiento": true,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Prefetching",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Props checking",
+						"usado": false,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "PropTypes",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Typescript",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Flow",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Memoization",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Angular",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "Modularización",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Routing",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Lazy routing",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Navigation",
+								"usado": false,
+								"conocimiento": true,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Services",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Components",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Data bindings",
+								"usado": false,
+								"conocimiento": true,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Directives",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Dependency Injection",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Factory",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Pipes",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Interceptors",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Testing an Angular module",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Localization",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Optimización",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": [
+							{
+								"title": "Tree shaking",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Change detection",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "NgRx",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Preprocesadores",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Less",
+						"usado": false,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Sass",
+						"usado": false,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "CSS-in-JS",
+						"usado": false,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Manejo de estado",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Redux",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Mobx",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Side-effects",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "rxJS",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "redux-thunk",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "redux-saga",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Apollo/gql",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Animaciones",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Lootie",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "gsap",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Lazy-loading",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "dynamic imports",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "redux-dynamic-modules",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Async loading",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "SEO",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Accesibilidad",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": []
+			},
+			{
+				"title": "Internacionalización",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Tratamiento de imágenes",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Responsive",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Testing",
+				"usado": false,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Jest",
+						"usado": false,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Cypress",
+						"usado": false,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Protractor",
+						"usado": false,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Karma",
+						"usado": false,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Linters",
+				"usado": false,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "ESLint",
+						"usado": false,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Prettier",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Bundlers",
+				"usado": false,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Webpack",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Rollup",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Gulp",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Grunt",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Bundle analysis",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Backend con JS",
+				"usado": true,
+				"conocimiento": false,
+				"interes": true,
+				"children": [
+					{
+						"title": "Node",
+						"usado": true,
+						"conocimiento": true,
+						"interes": true,
+						"children": []
+					},
+					{
+						"title": "Express",
+						"usado": true,
+						"conocimiento": true,
+						"interes": true,
+						"children": [
+							{
+								"title": "Middlewares",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "GraphQL",
+						"usado": true,
+						"conocimiento": true,
+						"interes": true,
+						"children": []
+					},
+					{
+						"title": "NextJS",
+						"usado": true,
+						"conocimiento": true,
+						"interes": true,
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": ".net",
+		"usado": false,
+		"conocimiento": false,
+		"interes": false,
+		"children": [
+			{
+				"title": "C#",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "VB.net",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Auto mapper",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Linq",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Generics",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Async programming",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Web API",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": [
+					{
+						"title": "Swagger",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "MVC",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": [
+					{
+						"title": "Razor",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Blazor",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": ".net Framework",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": [
+					{
+						"title": "Dependency Inject",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Autofac",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Ninject",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "ORM",
+						"usado": false,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Entity Framework",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Dapper",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Unit testing",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "XUnit",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "MsTest",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "NUnit",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "WCF",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": ".net Core",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "Unit testing (nativo)",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Dependency Inject (nativo)",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Lifecycle DI",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "ORM",
+						"usado": false,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "EF Core",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Dapper Core",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Middlewares de excepciones",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Filters",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Application Insights",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Cross-tech",
+		"usado": false,
+		"conocimiento": false,
+		"interes": false,
+		"children": [
+			{
+				"title": "Authn/Authz",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Identity server",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "JSON web tokens",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Auth0",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Patrones de diseño",
+				"usado": false,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Unit of Work",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Repository",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Dependency Injection",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Python",
+		"usado": true,
+		"conocimiento": false,
+		"interes": true,
+		"children": [
+			{
+				"title": "Generadores",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Iteradores",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Async I/O",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Debuggers",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Celery",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "API",
+				"usado": false,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Flask",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Fast API",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Django",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "Querysets",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Annotates",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Internationalization",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "REST Framework",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Viewsets",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Router",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Mixins",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Channels",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Authn/Authz",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "SSO",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Cache",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Tools",
+				"usado": false,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "PyCharm",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "PyLint / Flake 8",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "iSort",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "PyTest",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Version control",
+		"usado": false,
+		"conocimiento": false,
+		"interes": false,
+		"children": [
+			{
+				"title": "Git",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "Merge/squash/rebase",
+						"usado": false,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Hooks",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Bisect",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Git-flow",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "TFS",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			}
+		]
+	},
+	{
+		"title": "Mobile",
+		"usado": true,
+		"conocimiento": false,
+		"interes": true,
+		"children": [
+			{
+				"title": "General",
+				"usado": false,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Perfiles de desarrollo / certificados / liberación",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Debugging tools",
+						"usado": false,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "VS extensions",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Flipper",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Uso de WebView",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Push notifications",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Firebase",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "One Signal",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Deep links",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Local DB",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "SQLite",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Offline reconciliation",
+						"usado": false,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Realm",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Secrets",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "CI",
+				"usado": true,
+				"conocimiento": false,
+				"interes": true,
+				"children": [
+					{
+						"title": "AppCenter",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Xamarin Forms",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "MVVM",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": [
+							{
+								"title": "MVVM Cross",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Prism",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Dependency Injection",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "XAML/Data binding",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": [
+							{
+								"title": "Converters",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Triggers",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							},
+							{
+								"title": "Behaviors",
+								"usado": true,
+								"conocimiento": false,
+								"interes": false,
+								"children": []
+							}
+						]
+					},
+					{
+						"title": "Custom render",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Shell",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "React Native",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "Bridging",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Styling",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Core components",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Flutter",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "Bridging",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Styling",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Core widgets",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "State management",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Pub",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Android nativo",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "Kotlin",
+						"usado": true,
+						"conocimiento": false,
+						"interes": true,
+						"children": []
+					},
+					{
+						"title": "Jetpack",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Java",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Gradle",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "iOS nativo",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "Swift",
+						"usado": true,
+						"conocimiento": false,
+						"interes": true,
+						"children": []
+					},
+					{
+						"title": "Objective-C",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Databases",
+		"usado": false,
+		"conocimiento": false,
+		"interes": false,
+		"children": [
+			{
+				"title": "SQL",
+				"usado": false,
+				"conocimiento": true,
+				"interes": false,
+				"children": [
+					{
+						"title": "Postgres",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "MySQL",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "SQL Server",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "No-SQL",
+				"usado": false,
+				"conocimiento": true,
+				"interes": false,
+				"children": [
+					{
+						"title": "ElasticSearch",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Mongo",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Firestore",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Cosmos DB",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Cache",
+				"usado": false,
+				"conocimiento": true,
+				"interes": false,
+				"children": [
+					{
+						"title": "Redis",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Devops",
+		"usado": true,
+		"conocimiento": false,
+		"interes": true,
+		"children": [
+			{
+				"title": "Docker",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": []
+			},
+			{
+				"title": "Kubernetes",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": []
+			},
+			{
+				"title": "AWS",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "S3",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "EC2",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "CloudFront",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "GCP",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": []
+			},
+			{
+				"title": "Azure Infra",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "Functions",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Key Vault",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "App services",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Storage",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Queue/Service Bus",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Send grids",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Elastic Pools",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "User tenants",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Azure Devops",
+				"usado": true,
+				"conocimiento": true,
+				"interes": true,
+				"children": [
+					{
+						"title": "Deployment pipelines",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "IaaS - ARM/YAML templates",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Creación automatizada de ambientes",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Terraform",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Heroku",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Vercel",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Helm",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Scripting (Bash/Powershell)",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "SSH",
+				"usado": true,
+				"conocimiento": true,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Artifactory",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Sonatype Nexus",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Jfrog",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "CI/CD",
+				"usado": false,
+				"conocimiento": false,
+				"interes": true,
+				"children": [
+					{
+						"title": "Jenkins",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "TeamCity",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "CircleCI",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Heroku CI",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Bitbucket pipelines",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Azure pipelines",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Gitlab",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": []
+			},
+			{
+				"title": "Bamboo/Bitbucket",
+				"usado": true,
+				"conocimiento": false,
+				"interes": false,
+				"children": []
+			}
+		]
+	},
+	{
+		"title": "ML/AI",
+		"usado": true,
+		"conocimiento": false,
+		"interes": true,
+		"children": [
+			{
+				"title": "Libs",
+				"usado": false,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Keras",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "TensorFlow",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Scikit-learn",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Pandas",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Numpy",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "OpenCV",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Matplot lib",
+						"usado": true,
+						"conocimiento": true,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Tools",
+				"usado": false,
+				"conocimiento": false,
+				"interes": false,
+				"children": [
+					{
+						"title": "Jupyter notebook",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Imagen",
+				"usado": true,
+				"conocimiento": false,
+				"interes": true,
+				"children": [
+					{
+						"title": "Clasificación",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Detección",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Reconocimiento de objetos",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Segmentación semántica",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Segmentación de instancia",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Tracking de objetos",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "GANs",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Texto",
+				"usado": true,
+				"conocimiento": false,
+				"interes": true,
+				"children": [
+					{
+						"title": "Clasificación",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Sumarización",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Modelos del lenguaje",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Generación",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Reconocimiento de entidades",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Questionnaire answering",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Audio",
+				"usado": true,
+				"conocimiento": false,
+				"interes": true,
+				"children": [
+					{
+						"title": "Clasificación",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "GANs",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Speech",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					},
+					{
+						"title": "Fingerprinting",
+						"usado": true,
+						"conocimiento": false,
+						"interes": false,
+						"children": []
+					}
+				]
+			},
+			{
+				"title": "Datos tabulares/análisis predictivo",
+				"usado": true,
+				"conocimiento": false,
+				"interes": true,
+				"children": []
+			}
+		]
+	}
+]
