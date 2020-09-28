@@ -1,17 +1,17 @@
 const path = require('path');
 const fs = require('fs');
-const csvtojson = require('csvtojson/V2');
+const csvtojson = require('csvtojson/v2');
 
 const nesting = ['Area', 'Categoria', 'Tema', 'Subtema'];
 const getDepth = item => nesting.findIndex(n => item[n]);
 
 function getTree(lines) {
 	function addProperties(scope, props, enumerable) {
-		for (p in props) {
+		for (const p in props) {
 			Object.defineProperty(scope, p, { enumerable, value: props[p] });
 		}
 	}
-	var TreeNode = function (data, depth) {
+	const TreeNode = function (data, depth) {
 		this.parent = null;
 		addProperties(
 			this,
@@ -34,17 +34,17 @@ function getTree(lines) {
 		);
 	};
 
-	var tree = new TreeNode({}, -1);
+	const tree = new TreeNode({}, -1);
 
-	var levels = [tree];
+	const levels = [tree];
 	function topnode() {
 		return levels[levels.length - 1];
 	}
 
-	for (var i = 0; i < lines.length; i++) {
-		var line = lines[i];
+	for (let i = 0; i < lines.length; i++) {
+		const line = lines[i];
 
-		var depth = getDepth(line);
+		const depth = getDepth(line);
 
 		if (depth >= 0) {
 			//then add node to tree
@@ -52,8 +52,8 @@ function getTree(lines) {
 			while (depth - topnode().depth <= 0) {
 				levels.pop();
 			}
-			var depth = levels.length - 1;
-			var node = new TreeNode(line, depth);
+			const nodeDepth = levels.length - 1;
+			const node = new TreeNode(line, nodeDepth);
 			node.parent = topnode();
 			node.parent.children.push(node);
 			levels.push(node);
@@ -62,11 +62,19 @@ function getTree(lines) {
 	return tree;
 }
 
-(async function () {
-	const array = await csvtojson().fromFile(path.join(__dirname, 'taxonomy.csv'));
-	const root = getTree(array);
+function simplify(node) {
+	const { children, title, ...values } = node;
+	return {
+		[title]: { ...values, children: children.reduce((res, node) => ({ ...res, ...simplify(node) }), {}) }
+	};
+}
 
-	fs.writeFileSync(path.join(__dirname, 'src', 'taxonomy.json'), JSON.stringify(root.children, null, '\t'), {
+(async function () {
+	const csv = fs.readFileSync(path.join(__dirname, 'taxonomy.tsv'), { encoding: 'utf-8' }).replace(/\t/g, ',');
+	const array = await csvtojson().fromString(csv);
+	const root = getTree(array);
+	const simplified = root.children.reduce((res, c) => ({ ...res, ...simplify(c) }), {});
+	fs.writeFileSync(path.join(__dirname, 'src', 'taxonomy.json'), JSON.stringify(simplified, null, '\t'), {
 		encoding: 'utf-8'
 	});
 })();
