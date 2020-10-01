@@ -115,25 +115,13 @@ function taxonomyToJsonModel(taxonomy) {
 		name: 'initial',
 		title: 'Introducción',
 		description: 'Indicá en qué áreas has trabajado, ahondaremos más en las que marques que si.',
-		elements: Object.entries(taxonomy).reduce((res, [label, { usado, interes }]) => {
-			const usadoName = getName(label, preguntas.usado);
-			return [
+		elements: Object.entries(taxonomy).reduce(
+			(res, [label, { children, ...props }]) => [
 				...res,
-				usado && { name: usadoName, label: `${label} ¿Lo has usado?`, type: 'boolean' },
-				interes && {
-					type: 'panel',
-					innerIndent: 1,
-					elements: [
-						{
-							name: getName(label, preguntas.interes),
-							label: '¿Te interesaría?',
-							type: 'boolean',
-							visibleIf: nameEquals(usadoName, false)
-						}
-					]
-				}
-			];
-		}, [])
+				...getQuestions({ [label]: { ...props, children: {} } }, '', false)
+			],
+			[]
+		)
 	};
 	const pages = Object.entries(taxonomy).map(([name, { children, usado }]) => {
 		const elements = getQuestions(children, name);
