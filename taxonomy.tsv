@@ -38,21 +38,26 @@ Web y JavaScript				Preguntar		Preguntar
 		Components		Preguntar		
 			Data bindings		Preguntar	
 		Directives		Preguntar	Preguntar	
-		Dependency Injection		Preguntar		
+		Dependency Injection		Preguntar	Preguntar	
 			Factory	Preguntar		
 		Pipes		Preguntar		
-		Interceptors		Preguntar		
+		Interceptors		Preguntar	Preguntar	
 		Testing an Angular module		Preguntar	Preguntar	
 		Localization		Preguntar		
 		Optimización		Preguntar	Preguntar	
 			Tree shaking	Preguntar		
 			Change detection	Preguntar		
-		NgRx		Preguntar		
+		NgRx		Preguntar	Preguntar	
 						
-	Preprocesadores			Preguntar		
+	Estilos					
+		CSS			Preguntar	
 		Less		Preguntar	Preguntar	
 		Sass		Preguntar	Preguntar	
 		CSS-in-JS		Preguntar	Preguntar	
+	Bibliotecas de componentes			Preguntar		
+		Bootstrap		Preguntar	Preguntar	
+		Material UI		Preguntar	Preguntar	
+		Foundation		Preguntar	Preguntar	
 	Manejo de estado			Preguntar		
 		Redux		Preguntar	Preguntar	
 		Mobx		Preguntar	Preguntar	
@@ -64,6 +69,7 @@ Web y JavaScript				Preguntar		Preguntar
 	Animaciones			Preguntar		
 		Lootie		Preguntar		
 		gsap		Preguntar		
+		react-spring				
 	Lazy-loading			Preguntar		
 		dynamic imports		Preguntar		
 		redux-dynamic-modules		Preguntar		
@@ -73,7 +79,11 @@ Web y JavaScript				Preguntar		Preguntar
 	Internacionalización			Preguntar	Preguntar	
 	Tratamiento de imágenes			Preguntar		
 		Responsive		Preguntar		
-						
+	Visualización de datos			Preguntar		
+		D3		Preguntar		
+		ChartJS		Preguntar		
+		High Charts		Preguntar		
+		Raphael				
 						
 						
 	Testing					
@@ -99,7 +109,7 @@ Web y JavaScript				Preguntar		Preguntar
 			Middlewares	Preguntar		
 		GraphQL		Preguntar	Preguntar	Preguntar
 		NextJS		Preguntar	Preguntar	Preguntar
-.net				Preguntar		
+.net				Preguntar		Preguntar
 	C#			Preguntar	Preguntar	
 	VB.net			Preguntar	Preguntar	
 	Auto mapper			Preguntar		
